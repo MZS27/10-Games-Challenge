@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 
 namespace Breakout
 {
-    internal class Brick
+    internal class Brick : GameObject
     {
-        public Vector2 Position;
-        public Vector2 Rect;
+        public int score = 1;
+        public int collide()
+        {
+            return score;
+        }
     }
 }

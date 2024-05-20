@@ -5,7 +5,7 @@ namespace Breakout
 {
     internal class Ball : GameObject
     {
-        public int Speed = 500;
+        public int Speed = 200;
         public Vector2 Direction;
         public Ball(Vector2 position)
         {
